@@ -9,10 +9,10 @@ const Header = () => {
             <nav>
                 <span>My Website</span>
                 <Link to="/">Home</Link>
-                <Link to="/users">Users</Link>
+                <NavLink to="/users">Users</NavLink>
                 <NavLink to="/posts">Posts</NavLink>
-                <Link to="/about">About</Link>
-                <Link to ="/contact">Contact Us</Link>
+                <NavLink to="/about ">About</NavLink>
+               <NavLink to ="/contact">Contact Us</NavLink>
                 
             </nav>
         </div>
